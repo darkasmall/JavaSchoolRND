@@ -1,11 +1,10 @@
 package ru.sbertech.test.collection_api_lesson3.examples;
 
-import ru.sbertech.test.collection_api_lesson3.BeforeGenerics.PersonFirstLoad;
+import ru.sbertech.test.collection_api_lesson3.PersonFirstLoad;
 import ru.sbertech.test.collection_api_lesson3.Person;
 
 
 import java.util.LinkedList;
-import java.util.List;
 
 /**
  * Created by Student on 18.07.2016.
