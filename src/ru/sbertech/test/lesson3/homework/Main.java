@@ -5,7 +5,8 @@ package ru.sbertech.test.lesson3.homework;
  */
 public class Main {
     static public void main(String[] args) {
-        String filename = "D:\\MyJavaProjects\\JavaSchoolRND\\src\\ru\\sbertech\\test\\lesson3\\homework\\input.txt";
+        //String filename = "D:\\MyJavaProjects\\JavaSchoolRND\\src\\ru\\sbertech\\test\\lesson3\\homework\\input.txt";
+        String filename = "C:\\Users\\Student\\Desktop\\JavaSchoolRND\\src\\ru\\sbertech\\test\\lesson3\\homework\\input.txt";
         System.out.println("-----Задание 1-----");
         Task1.action(filename);
         System.out.println("-----Задание 2-----");

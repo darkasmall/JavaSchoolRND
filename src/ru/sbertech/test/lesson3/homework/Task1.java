@@ -12,8 +12,5 @@ public class Task1 {
         FileReading.readWords(filename, words);
         int wordsCount = words.size();
         System.out.println("Количество различных слов в заданном файле: " + wordsCount);
-       /* for(String word : words) {
-            System.out.println(word);
-        } */
     }
 }
