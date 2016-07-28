@@ -8,6 +8,8 @@ import java.util.List;
  */
 public class GenericTest {
     public static void main(String[] args) {
+        /* Проблема: дома JDK 7
+
         List<String> strList = new ArrayList<>();
         A<List> a = new A<>();
         a.setParam1(new ArrayList<String>());
@@ -23,6 +25,8 @@ public class GenericTest {
                 return "Abstract " + param1.getClass().getTypeName();
             }
         }.getType());
+
+
 
         Integer i = new Integer(10);
         //System.out.println(B.<Short>getType(new Short("12")));
@@ -44,8 +48,10 @@ public class GenericTest {
         ks.add(new Integer(11));
         ks.add(new Integer(9));
 
-        ks.forEach(System.out::println);
+        //ks.forEach(System.out::println);
 
         //Number n = ks.get(0);
+
+        */
     }
 }

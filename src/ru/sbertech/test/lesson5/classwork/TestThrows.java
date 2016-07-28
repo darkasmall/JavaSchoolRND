@@ -1,6 +1,5 @@
-package ru.sbertech.test.lesson5;
+package ru.sbertech.test.lesson5.classwork;
 
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
