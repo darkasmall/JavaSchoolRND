@@ -31,7 +31,7 @@ public class SiteContent {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        String urlText = "";
+        String urlText;
 
         while (true) {
             try {
