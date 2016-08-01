@@ -1,4 +1,4 @@
-package ru.sbertech.test.lesson6;
+package ru.sbertech.test.lesson6.classwork;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

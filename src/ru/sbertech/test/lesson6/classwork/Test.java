@@ -1,9 +1,7 @@
-package ru.sbertech.test.lesson6;
+package ru.sbertech.test.lesson6.classwork;
 
 
 import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.util.Arrays;
 
 /**
  * Created by Student on 28.07.2016.

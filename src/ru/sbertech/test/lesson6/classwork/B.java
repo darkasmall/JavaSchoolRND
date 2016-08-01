@@ -1,4 +1,6 @@
-package ru.sbertech.test.lesson6;
+package ru.sbertech.test.lesson6.classwork;
+
+import ru.sbertech.test.lesson6.classwork.A;
 
 /**
  * Created by Student on 28.07.2016.

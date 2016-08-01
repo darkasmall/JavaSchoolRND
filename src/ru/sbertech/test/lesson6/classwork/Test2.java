@@ -1,4 +1,4 @@
-package ru.sbertech.test.lesson6;
+package ru.sbertech.test.lesson6.classwork;
 
 import java.lang.reflect.Field;
 
@@ -7,7 +7,7 @@ import java.lang.reflect.Field;
  */
 public class Test2 {
     public static void main(String[] args) {
-        try {
+        /*try {
             Field f = C.class.getDeclaredField("str");
             f.setAccessible(true);
 
@@ -29,6 +29,6 @@ public class Test2 {
             System.out.println("Не можем создать экземпляр класса!");
         } catch (IllegalAccessException e) {
             System.out.println("Доступ запрещен!");
-        }
+        } */
     }
 }
