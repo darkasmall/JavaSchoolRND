@@ -1,7 +1,5 @@
-package ru.sbertech.test.lesson7;
+package ru.sbertech.test.lesson7.classwork;
 
-import java.lang.reflect.Method;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
 
@@ -14,7 +12,7 @@ public class Main {
         /*
         System.out.println(1);
         try {
-            Person person =  (Person) Main.class.getClassLoader().loadClass("ru.sbertech.test.lesson7.Person").newInstance();
+            Person person =  (Person) Main.class.getClassLoader().loadClass("ru.sbertech.test.lesson7.classwork.Person").newInstance();
         } catch (Exception e) {
 
         }
