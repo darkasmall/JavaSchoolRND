@@ -4,9 +4,10 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.lang.reflect.Method;
+import java.net.URL;
+import java.net.URLClassLoader;
 import java.util.ArrayList;
 
-import static ru.sbertech.test.lesson7.homework.SupportingMethods.*;
 
 /**
  * Created by Daria on 04.08.2016.
@@ -14,46 +15,47 @@ import static ru.sbertech.test.lesson7.homework.SupportingMethods.*;
 
 
 public class PluginManager {
-    //private final String pluginRootDirectory;
-    private Method define, resolve;
-    private final File rootDirectory;
-    private final ClassLoader classLoader;
+    private ArrayList<String> pluginsPaths;
+    private ArrayList<Plugin> plugins;
 
-    public PluginManager(String pluginRootDirectory, ClassLoader classLoader) {
-        rootDirectory = new File(pluginRootDirectory);
-        this.classLoader = classLoader;
-        try {
-            define = ClassLoader.class.getDeclaredMethod("defineClass", String.class, byte[].class, int.class, int.class);
-            resolve = ClassLoader.class.getDeclaredMethod("resolveClass", Class.class);
-            define.setAccessible(true);
-            resolve.setAccessible(true);
-        } catch (Exception e) {
-            System.out.println("Fail: " + e);
-        }
-
+    public ArrayList<Plugin> getPlugins() {
+        return plugins;
     }
 
-   // public Plugin load(String pluginName, String pluginClassName) {
-        //todo
-   // }
+    public PluginManager(String pluginRootDirectory) {
+        pluginsPaths = getJavaFilePaths(new File(pluginRootDirectory));
+        plugins = new ArrayList<>();
+
+        pluginsPaths.forEach(value -> plugins.add(load(value)));
+    }
 
 
-    public ArrayList<Plugin> loadAll() {
-        ArrayList<Plugin> result = new ArrayList<>();
-        Class<?> clazz;
-        Object instance;
-        for (File f : getFiles(rootDirectory)) {
-            byte[] bcode = getByteCode(f.getPath());
-            try {
-                clazz = (Class<?>) define.invoke(classLoader, null , bcode, 0, bcode.length);
-                resolve.invoke(classLoader, clazz);
-                instance = clazz.newInstance();
-                if (instance instanceof Plugin) {
-                    result.add((Plugin) instance);
-                }
+    public Plugin load(String pluginFIlePath) {
+        try {
+            URLClassLoader urlClassLoader = new URLClassLoader(new URL[]{new URL("file:/" + pluginFIlePath)});
+            Class<?> clazz = urlClassLoader.loadClass(pluginFIlePath.substring(3, pluginFIlePath.length() - 5).replace("\\", "."));
+            Object instance = clazz.newInstance();
+            if (instance instanceof Plugin)
+                return (Plugin) instance;
+        }
+        catch (Exception e) {
+            System.out.println("Fail:" + e);
+        }
+        return null;
+    }
+
+
+    public static ArrayList<String> getJavaFilePaths(File root)
+    {
+        ArrayList<String> result = new ArrayList<>();
+        for (File tmpFile : root.listFiles()) {
+            if (tmpFile.isDirectory()) {
+                result.addAll(getJavaFilePaths(tmpFile));
             }
-            catch (Exception e) {
-                System.out.println("Fail:" + e);
+            else {
+                String path = tmpFile.getPath();
+                if(path.endsWith(".java"))
+                    result.add(path);
             }
         }
         return result;

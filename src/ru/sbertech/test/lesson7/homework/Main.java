@@ -9,10 +9,17 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
         String pathToPlugins = "C:/Users/Daria/Desktop/JavaSchoolRND/src/PluginsForLesson7";
-        PluginManager pm = new PluginManager(pathToPlugins, Main.class.getClassLoader());
-        ArrayList<Plugin> plugs = pm.loadAll();
-        for (Plugin p : plugs) {
-            p.doUsefull();
-        }
+//        ArrayList<String> l = PluginManager.getJavaFilePaths(new File(pathToPlugins));
+//        for (String s : l) {
+//            String tmp = s.substring(0, s.length() - 5).replace("\\", ".");
+//            System.out.println(tmp);
+//        }
+
+
+        PluginManager pm = new PluginManager(pathToPlugins);
+        ArrayList<Plugin> plugins =  pm.getPlugins();
+        plugins.forEach(Plugin::doUsefull);
+
+
     }
 }
