@@ -1,4 +1,4 @@
-package ru.sbertech.test.lesson4;
+package ru.sbertech.test.lesson4.classwork;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,6 @@ import java.util.List;
  */
 public class GenericTest {
     public static void main(String[] args) {
-        /* Проблема: дома JDK 7
 
         List<String> strList = new ArrayList<>();
         A<List> a = new A<>();
@@ -30,7 +29,7 @@ public class GenericTest {
 
         Integer i = new Integer(10);
         //System.out.println(B.<Short>getType(new Short("12")));
-        System.out.println(B.getType(i));
+        //System.out.println(B.getType(i));
 
 
         List<?> list = new ArrayList<Integer>();
@@ -52,6 +51,6 @@ public class GenericTest {
 
         //Number n = ks.get(0);
 
-        */
+
     }
 }
