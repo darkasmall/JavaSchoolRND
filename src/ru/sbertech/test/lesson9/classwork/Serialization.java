@@ -1,3 +1,5 @@
+package ru.sbertech.test.lesson9.classwork;
+
 import java.io.*;
 
 /**
@@ -57,7 +59,7 @@ public class Serialization {
     public static void main(String[] args) {
         Student student = new Student();
         System.out.println(student);
-        String fileName = "student.bin";
+        String fileName = "src/ru/sbertech/test/lesson9/classwork/student.bin";
         try(FileOutputStream fis = new FileOutputStream(fileName);
             ObjectOutputStream oos = new ObjectOutputStream(fis)) {
             oos.writeObject(student);

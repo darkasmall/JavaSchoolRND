@@ -1,3 +1,5 @@
+package ru.sbertech.test.lesson9.classwork;
+
 import java.io.*;
 
 /**
@@ -11,7 +13,7 @@ public class CacheTest {
     public static void main(String[] args) {
         DataHolder dataHolder = new DataHolder();
         System.out.println(dataHolder);
-        String fileName = "dataholder.bin";
+        String fileName = "src/ru/sbertech/test/lesson9/classwork/dataholder.bin";
         try(FileOutputStream fis = new FileOutputStream(fileName);
             ObjectOutputStream oos = new ObjectOutputStream(fis)) {
             oos.writeObject(dataHolder);

@@ -1,22 +1,24 @@
+package ru.sbertech.test.lesson9.classwork;
+
 import java.io.*;
 
 /**
  * Created by Student on 08.08.2016.
  */
 
-class A{
+class A implements Serializable{
     public B getB() {return b;}
     public void setB(B b) {this.b = b;}
     private B b;
 }
 
-class C {
+class C implements Serializable{
     public A getA() {return a;}
     public void setA(A a) {this.a = a;}
     private A a;
 }
 
-class B{
+class B implements Serializable{
     public C getC() {return c;}
     public void setC(C c) {this.c = c;}
     private C c;
@@ -24,7 +26,7 @@ class B{
 
 public class RecursiveLinks{
     public static void main(String[] args) throws Exception{
-        String fileName = "links.bin";
+        String fileName = "src/ru/sbertech/test/lesson9/classwork/links.bin";
 
         A a = new A();
         B b = new B();
