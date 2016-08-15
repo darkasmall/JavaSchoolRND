@@ -1,5 +1,14 @@
 package ru.sbertech.test.lesson11;
 
+
+/*
+
+Есть 2 файла - 1й со словами, 2й с настройками(размер пула)
+Загрузить в лист файл 1, посчитать количество букв в многопоточном режиме
+размер пула ограничен настройкой из файла 2
+
+ */
+
 /**
  * Created by Student on 15.08.2016.
  */
@@ -36,7 +45,7 @@ public class SomeTask implements Runnable {
         }
 
         System.out.println("2: " + t.isAlive());
-        
+
         System.out.println("End of main programm");
 
     }
