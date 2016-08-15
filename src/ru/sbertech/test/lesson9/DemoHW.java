@@ -1,3 +1,4 @@
+/*
 package ru.sbertech.test.lesson9;
 
 import java.io.Console;
@@ -133,3 +134,4 @@ public class DemoHW {
         }
     }
 }
+*/

@@ -1,10 +1,9 @@
-package ru.sbertech.test.lesson10;
+package ru.sbertech.test.lesson10.classwork;
 
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.function.BiPredicate;
-import java.util.function.Predicate;
 
 /**
  * Created by Student on 11.08.2016.

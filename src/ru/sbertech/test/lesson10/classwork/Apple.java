@@ -1,4 +1,4 @@
-package ru.sbertech.test.lesson10;
+package ru.sbertech.test.lesson10.classwork;
 
 /**
  * Created by Student on 11.08.2016.
