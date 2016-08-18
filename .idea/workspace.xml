@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05379b28-1d5f-4de1-8d35-38601ae2372e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/sbertech/test/lesson11part2/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/sbertech/test/lesson11part2/example1/Account.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/sbertech/test/lesson11part2/example1/Man.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/sbertech/test/lesson11part2/example1/MonitorExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/sbertech/test/lesson11part2/example1/Square.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/sbertech/test/lesson11part2/example1/Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaSchoolRND.iws" />
@@ -29,7 +34,65 @@
     <favorites_list name="JavaSchoolRND" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/sbertech/test/lesson11part2/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MonitorExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/sbertech/test/lesson11part2/example1/MonitorExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+              <folding>
+                <element signature="e#723#724#0" expanded="true" />
+                <element signature="e#750#751#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Man.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/sbertech/test/lesson11part2/example1/Man.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+              <folding>
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/sbertech/test/lesson11part2/example1/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <folding>
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,12 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ru/sbertech/test/lesson6/classwork/Test2.java" />
-        <option value="$PROJECT_DIR$/src/ru/sbertech/test/lesson6/homework/StringFieldsChecking.java" />
-        <option value="$PROJECT_DIR$/src/ru/sbertech/test/lesson6/homework/TestClass.java" />
-        <option value="$PROJECT_DIR$/src/ru/sbertech/test/lesson6/homework/FindGetters.java" />
-        <option value="$PROJECT_DIR$/src/ru/sbertech/test/lesson6/homework/Main.java" />
-        <option value="$PROJECT_DIR$/src/ru/sbertech/test/lesson7/Person.java" />
         <option value="$PROJECT_DIR$/src/ru/sbertech/test/lesson7/Calculator.java" />
         <option value="$PROJECT_DIR$/src/ru/sbertech/test/lesson7/CalculatorImpl.java" />
         <option value="$PROJECT_DIR$/src/ru/sbertech/test/lesson7/Main.java" />
@@ -102,6 +159,12 @@
         <option value="$PROJECT_DIR$/src/ru/sbertech/test/lesson11/SomeThread.java" />
         <option value="$PROJECT_DIR$/src/ru/sbertech/test/lesson11/classwork/SomeThread.java" />
         <option value="$PROJECT_DIR$/src/ru/sbertech/test/lesson11/homework/MyExecutorService.java" />
+        <option value="$PROJECT_DIR$/src/ru/sbertech/test/lesson11part2/example1/Account.java" />
+        <option value="$PROJECT_DIR$/src/ru/sbertech/test/lesson11part2/example1/Square.java" />
+        <option value="$PROJECT_DIR$/src/ru/sbertech/test/lesson11part2/example1/Test.java" />
+        <option value="$PROJECT_DIR$/src/ru/sbertech/test/lesson11part2/example1/Man.java" />
+        <option value="$PROJECT_DIR$/src/ru/sbertech/test/lesson11part2/example1/MonitorExample.java" />
+        <option value="$PROJECT_DIR$/src/ru/sbertech/test/lesson11part2/Main.java" />
       </list>
     </option>
   </component>
@@ -179,6 +242,54 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson11part2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaSchoolRND" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaSchoolRND" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson11part2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaSchoolRND" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaSchoolRND" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -213,7 +324,7 @@
       <recent name="C:\Users\Daria\Desktop\JavaSchoolRND\src\ru\sbertech\test\lesson9\classwork" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration default="false" name="Serialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -282,6 +393,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="ru.sbertech.test.lesson11.homework.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JavaSchoolRND" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ru.sbertech.test.lesson11part2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ru.sbertech.test.lesson11part2.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -528,19 +659,20 @@
       <listeners />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Serialization" />
       <item index="1" class="java.lang.String" itemvalue="Application.RecursiveLinks" />
       <item index="2" class="java.lang.String" itemvalue="Application.CacheTest" />
       <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main (1)" />
         <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CacheTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.RecursiveLinks" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Serialization" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CacheTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.RecursiveLinks" />
       </list>
     </recent_temporary>
   </component>
@@ -597,8 +729,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -608,11 +740,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09946237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23655914" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24421594" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24421594" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -684,12 +816,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../jsps/JSchool_MMX/JSchool_MMX.iml" />
-    <entry file="file://$PROJECT_DIR$/../jsps/JSchool_MMX/src/ru/sbertech/lesson7/HomeWork/Plugin.java" />
-    <entry file="file://$PROJECT_DIR$/../jsps/JSchool_MMX/src/ru/sbertech/lesson7/HomeWork/CommonClass.java" />
-    <entry file="file://$PROJECT_DIR$/src/ru/sbertech/test/lesson7/homework/SupportingMethods.java" />
-    <entry file="file://$PROJECT_DIR$/../Шамиль/JavaSchoolRND-master/ru/sbertech/test/lesson7/Homework/Test.java" />
-    <entry file="file://$PROJECT_DIR$/../jsps/JSchool_MMX/src/ru/sbertech/lesson7/HomeWork/PluginManager.java" />
     <entry file="file://$PROJECT_DIR$/../Шамиль/JavaSchoolRND-master/ru/sbertech/test/lesson7/Homework/PluginManager.java" />
     <entry file="file://$PROJECT_DIR$/../jsps/JSchool_MMX/src/ru/sbertech/lesson7/HomeWork/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/ru/sbertech/test/lesson7/classwork/Main.java">
@@ -893,6 +1019,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -900,6 +1027,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -907,6 +1035,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -929,7 +1058,7 @@
         <state relative-caret-position="119">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -939,7 +1068,7 @@
         <state relative-caret-position="340">
           <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -948,6 +1077,85 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/sbertech/test/lesson11part2/example1/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/sbertech/test/lesson11part2/example1/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
+          <folding>
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/sbertech/test/lesson11part2/example1/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/sbertech/test/lesson11part2/example1/Man.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding>
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/sbertech/test/lesson11part2/example1/MonitorExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding>
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/sbertech/test/lesson11part2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
