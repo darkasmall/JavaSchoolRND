@@ -16,7 +16,7 @@ public class Test3 {
                 list.getClass().getInterfaces(),
                 new InvocationHandlerImpl(list));
 
-        loggedList.add("first");
+        loggedList.add("second");
         System.out.println(loggedList.get(0));
         System.out.println(loggedList.remove(0));
         System.out.println(loggedList.size());

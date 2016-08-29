@@ -10,8 +10,8 @@ public class Main {
     public static void main(String[] args) {
         String pathToPlugins = "C:/Users/Daria/Desktop/JavaSchoolRND/src/PluginsForLesson7";
 //        ArrayList<String> l = PluginManager.getJavaFilePaths(new File(pathToPlugins));
-//        for (String s : l) {
-//            String tmp = s.substring(0, s.length() - 5).replace("\\", ".");
+//        for (String first : l) {
+//            String tmp = first.substring(0, first.length() - 5).replace("\\", ".");
 //            System.out.println(tmp);
 //        }
 

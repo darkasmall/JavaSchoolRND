@@ -8,7 +8,7 @@ public class C extends B implements I{
     private B bC;
 
     @ValidLength(5)
-    private final String str = "first";
+    private final String str = "second";
 
     public C() {
         aB = new A();

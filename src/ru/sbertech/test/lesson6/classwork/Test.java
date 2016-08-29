@@ -31,7 +31,7 @@ public class Test {
             C c = new C();
             System.out.println(f.get(c));
 
-            f.set(c, "second");
+            f.set(c, "first");
             System.out.println(f.get(c));
 
             c.someMethod("test");
