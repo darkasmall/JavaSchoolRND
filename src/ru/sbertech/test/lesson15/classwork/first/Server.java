@@ -1,4 +1,4 @@
-package ru.sbertech.test.lesson15.first;
+package ru.sbertech.test.lesson15.classwork.first;
 
 import java.io.*;
 import java.net.ServerSocket;

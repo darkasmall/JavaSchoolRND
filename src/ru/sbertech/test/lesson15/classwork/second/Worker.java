@@ -1,8 +1,7 @@
-package ru.sbertech.test.lesson15.second;
+package ru.sbertech.test.lesson15.classwork.second;
 
 import java.io.*;
 import java.net.Socket;
-import java.util.Date;
 import java.util.Random;
 
 /**

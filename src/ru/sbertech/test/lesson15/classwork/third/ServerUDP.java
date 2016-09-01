@@ -1,4 +1,4 @@
-package ru.sbertech.test.lesson15.third;
+package ru.sbertech.test.lesson15.classwork.third;
 
 import java.io.IOException;
 import java.net.DatagramPacket;
