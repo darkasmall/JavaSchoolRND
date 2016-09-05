@@ -1,0 +1,9 @@
+KISS - Keep It Simple, Stupid
+DRY(DIE)
+..
+
+S ingle Resposability
+O pen / Close
+L istkow Substitute
+I nterface Segregation
+D ependency Inversion
