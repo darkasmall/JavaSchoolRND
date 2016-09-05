@@ -1,4 +1,4 @@
-package ru.sbertech.test.lesson10.homework;
+package ru.sbertech.test.lesson10.homework.Enums;
 
 /**
  * Created by Daria on 12.08.2016.

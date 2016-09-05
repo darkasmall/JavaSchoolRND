@@ -1,5 +1,9 @@
 package ru.sbertech.test.lesson10.homework;
 
+import ru.sbertech.test.lesson10.homework.Animal.Animal;
+import ru.sbertech.test.lesson10.homework.Enums.Food;
+import ru.sbertech.test.lesson10.homework.Enums.Skin;
+
 import java.util.List;
 
 /**
@@ -21,19 +25,27 @@ public class Farm {
 
     @Override
     public String toString() {
-        String result = "Farm:\n";
-        //ToDo использовать лямбды
+        String farm = "Farm:\n";
+        String result = animals.stream().map(Animal::toString).reduce(farm,(s1, s2) -> s1 + s2 + "\n");
         return result;
     }
 
+    // всех "меховых" погладить
     public void stroke() {
-        //ToDo погладить всех пушистых животных с изменением их настроения
+        animals.stream().filter(a -> a.getSkin() == Skin.wool).forEach(Animal::becomeFriendly);
     }
 
+    // всех, кому подходит корм, покормить
     public void feed(Food food) {
-        //ToDo накормить всех животных, которым подходит этот корм, с изменением их статуса сытости
+        animals.stream().filter(a -> a.getPermissibleFood().contains(food)).forEach(Animal::feed);
     }
 
-    //ToDo аналогичные методы
+    /*ToDo
+        -плодить
+        -случайные имена из файла
+        -жизнь со временем
+        -сохранение состояния в файл
+        -лог операций
+     */
 
 }

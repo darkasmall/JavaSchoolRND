@@ -1,4 +1,4 @@
-package ru.sbertech.test.lesson10.homework;
+package ru.sbertech.test.lesson10.homework.Enums;
 
 /**
  * Created by Daria on 12.08.2016.
@@ -6,6 +6,6 @@ package ru.sbertech.test.lesson10.homework;
 public enum Food {
     grass,
     fruits,
-    corn,
+    grain,
     meat;
 }
