@@ -10,29 +10,19 @@ import java.util.Set;
 /**
  * Created by Daria on 12.08.2016.
  */
+
 abstract public class Animal {
-    protected Skin skin;
+    public AnimalCharacteristics characteristics;
+    public AnimalStatus status = new AnimalStatus();
+
     protected String name;
     protected Gender gender;
-    protected Set<Food> permissibleFood = new HashSet<>();
 
-    private boolean hungry = true;
-    private boolean angry = true;
 
-    public Set<Food> getPermissibleFood() {
-        return permissibleFood;
-    }
-
-    public boolean isHungry() {
-        return hungry;
-    }
-
-    public boolean isAngry() {
-        return angry;
-    }
-
-    public Skin getSkin() {
-        return skin;
+    protected void create(String name, Gender gender, AnimalCharacteristics characteristics){
+        this.name = name;
+        this.gender = gender;
+        this.characteristics = characteristics;
     }
 
     public String getName() {
@@ -43,23 +33,16 @@ abstract public class Animal {
         return gender;
     }
 
-    private String foodStatus() {
-        if (isHungry()) return "hungry";
-        else return "well-fed";
-    }
-
-    private String moodStatus() {
-        if (isAngry()) return "angry";
-        else return "friendly";
-    }
 
     public void feed() {
-        hungry = false;
+        status.setHungry(false);
     }
 
     public void becomeFriendly() {
-        angry = false;
+        status.setAngry(false);
     }
+
+
 
     @Override
     public String toString() {
@@ -68,9 +51,11 @@ abstract public class Animal {
                 " " +
                 this.getName() +
                 " " +
-                this.foodStatus() +
-                " " +
-                this.moodStatus();
+                this.gender;
+    }
+
+    public String toStringWithStatus(){
+        return toString() + "  " + status.toString();
     }
 
 }

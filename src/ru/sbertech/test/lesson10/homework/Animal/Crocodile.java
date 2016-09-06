@@ -4,15 +4,16 @@ import ru.sbertech.test.lesson10.homework.Enums.Food;
 import ru.sbertech.test.lesson10.homework.Enums.Gender;
 import ru.sbertech.test.lesson10.homework.Enums.Skin;
 
+import java.util.HashSet;
+
 /**
  * Created by Daria on 12.08.2016.
  */
 public class Crocodile extends Animal{
 
     public Crocodile(String name, Gender gender) {
-        this.name = name;
-        this.gender = gender;
-        this.skin = Skin.squama;
-        this.permissibleFood.add(Food.meat);
+        HashSet<Food> food = new HashSet<>();
+        food.add(Food.meat);
+        create(name, gender, new AnimalCharacteristics(Skin.squama, food));
     }
 }

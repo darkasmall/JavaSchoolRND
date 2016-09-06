@@ -4,16 +4,17 @@ import ru.sbertech.test.lesson10.homework.Enums.Food;
 import ru.sbertech.test.lesson10.homework.Enums.Gender;
 import ru.sbertech.test.lesson10.homework.Enums.Skin;
 
+import java.util.HashSet;
+
 /**
  * Created by Daria on 12.08.2016.
  */
 public class Raven extends Animal{
 
     public Raven(String name, Gender gender) {
-        this.name = name;
-        this.gender = gender;
-        this.skin = Skin.plumage;
-        this.permissibleFood.add(Food.meat);
-        this.permissibleFood.add(Food.fruits);
+        HashSet<Food> food = new HashSet<>();
+        food.add(Food.meat);
+        food.add(Food.fruits);
+        create(name, gender, new AnimalCharacteristics(Skin.plumage, food));
     }
 }
