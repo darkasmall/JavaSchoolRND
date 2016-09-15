@@ -1,7 +1,5 @@
 package ru.sbertech.test.lesson17;
 
-import ru.sbertech.test.lesson11part2.example1.*;
-
 /**
  * Created by Student on 05.09.2016.
  */

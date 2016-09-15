@@ -1,8 +1,6 @@
-package ru.sbertech.test.lesson11part2;
+package ru.sbertech.test.lesson12;
 
-import ru.sbertech.test.lesson11part2.example1.*;
-
-import java.util.Date;
+import ru.sbertech.test.lesson12.example1.*;
 
 /**
  * Created by Student on 18.08.2016.
