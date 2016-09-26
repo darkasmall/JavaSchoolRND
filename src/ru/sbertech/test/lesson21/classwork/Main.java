@@ -5,7 +5,14 @@ import java.sql.*;
 public class Main {
     public static void main(String[] args) throws SQLException {
         try (Connection conn = DriverManager.getConnection("jdbc:h2:tcp://localhost/~/test", "sa", "")) {
+
+
+            System.out.println("TYPE_FORWARD_ONLY = " + conn.getMetaData().supportsResultSetType(ResultSet.TYPE_FORWARD_ONLY));
+
             Statement statement = conn.createStatement();
+
+            conn.setAutoCommit(false);
+            conn.commit();
 
             ResultSet resultSet = statement.executeQuery("select * from songs where id=25");
             while (resultSet.next()){
