@@ -1,0 +1,30 @@
+таблица Client
+    Long ID
+    String Name
+
+таблица Account
+    Big Decimal saldo
+    Long ID
+    String accNum
+    Client client
+
+таблица Document
+    Long ID
+    Account accDT  счет по дебиту
+    Account accCT  счет по крудиту
+    Big Decimal summa
+    String purpose
+    Date docDate
+
+создать приложение и тесты под него, которое обеспечивает
+ввод клиентов
+создание счета и привязывание к клиенту
+осуществление  документаоборота
+создание выписки по клиенту
+  -отчет, какие действие клиент проводил
+  Client Name  | AccNum  | Type (DT/CT) | Summa | Saldo
+
+
+
+
+
